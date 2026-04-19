@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BH Fight Grajaú | Academia Completa em Belo Horizonte</title>
+  <meta name="description" content="BH Fight Grajaú — academia completa na R. Contria, 1439, Grajaú, BH. Musculação, Boxe, Muay Thai, Taekwondo, Judô e Pilates. Nota 4,5 no Google com 135 avaliações." />
+  <meta name="keywords" content="academia grajaú bh, muay thai belo horizonte, boxe grajaú, musculação grajaú, judô bh, taekwondo bh, pilates grajaú, bh fight" />
+  <meta property="og:title" content="BH Fight Grajaú | Academia Completa em BH" />
+  <meta property="og:description" content="Musculação, Boxe, Muay Thai, Taekwondo, Judô e Pilates. R. Contria, 1439 — Grajaú, BH." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="/public/assets/favicon-32x32.png" type="image/png"/>
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">
+      <img src="public/assets/logo.png" alt="BH Fight Logo" class="nav-logo-img" />
+      <div class="nav-logo-text">
+        BH FIGHT <span>·</span> Grajaú
+      </div>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#modalidades">Modalidades</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+      <li>
+        <a href="https://wa.me/5531982449832?text=Olá!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20BH%20Fight%20Grajaú."
+           target="_blank" class="nav-cta">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sobre"        data-close-menu>Sobre</a>
+    <a href="#modalidades"  data-close-menu>Modalidades</a>
+    <a href="#avaliacoes"   data-close-menu>Avaliações</a>
+    <a href="#galeria"      data-close-menu>Galeria</a>
+    <a href="#localizacao"  data-close-menu>Localização</a>
+    <a href="https://wa.me/5531982449832" target="_blank" data-close-menu>
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+  </div>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="public/assets/hero-bg.jpg" alt="Treino BH Fight" class="hero-bg-img" />
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="stars-inline">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>4,5 · 135 avaliações no Google</span>
+      </div>
+
+      <h1 class="hero-title">
+        TRANSFORME
+        <span class="line-red">SEU CORPO.</span>
+        <span class="line-thin">SUA MENTE. SUA VIDA.</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Academia completa no coração do <strong>Grajaú, BH</strong>. Modalidades de luta
+        e musculação com instrutores atentos e uma galera que faz a diferença.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/5531982449832?text=Olá!%20Quero%20começar%20a%20treinar%20na%20BH%20Fight%20Grajaú!"
+           target="_blank" class="btn-primary">
+          <i class="fab fa-whatsapp"></i> Começar Agora
+        </a>
+        <a href="#modalidades" class="btn-outline">
+          <i class="fas fa-fire"></i> Ver Modalidades
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">4,5</div>
+          <div class="hero-stat-label">Nota Google</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">135</div>
+          <div class="hero-stat-label">Avaliações</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">5</div>
+          <div class="hero-stat-label">Modalidades</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">16h</div>
+          <div class="hero-stat-label">De Segunda a Sexta</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#sobre" class="hero-scroll" aria-label="Rolar para baixo">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══ SOBRE ═══ -->
+  <section id="sobre">
+    <div class="sobre-grid">
+      <div class="sobre-image-wrap reveal-left">
+        <img src="public/assets/sobre.jpg" alt="Interior da BH Fight Grajaú" />
+        <div class="sobre-image-badge">
+          <div class="badge-num">4,5 ★</div>
+          <div class="badge-label">Nota Google Maps</div>
+        </div>
+      </div>
+
+      <div class="sobre-text reveal-right">
+        <span class="section-tag">Sobre a Academia</span>
+        <h2 class="section-title">BH Fight <span>Grajaú</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          A BH Fight Grajaú é uma academia completa especializada em artes marciais e musculação,
+          localizada na <strong>R. Contria, 1439</strong>, a poucos metros do Shopping Grajaú Center.
+          Com nota <strong>4,5 no Google</strong> e mais de <strong>135 avaliações</strong>,
+          somos reconhecidos pelo atendimento atencioso, instrutores qualificados e pelo ambiente
+          acolhedor que nossa galera cria todos os dias.
+        </p>
+        <p class="section-desc" style="margin-top: 14px;">
+          "Professores atenciosos com diversidade de aparelhos e bom custo x benefício." — Aluno BH Fight
+        </p>
+
+        <div class="location-badge">
+          <i class="fas fa-map-marker-alt"></i>
+          R. Contria, 1439 — Grajaú, Belo Horizonte - MG
+        </div>
+
+        <div class="sobre-features">
+          <div class="sobre-feature"><i class="fas fa-toilet"></i> Vestiários</div>
+          <div class="sobre-feature"><i class="fas fa-lock"></i> Armários</div>
+          <div class="sobre-feature"><i class="fas fa-wifi"></i> Wi-Fi</div>
+          <div class="sobre-feature"><i class="fas fa-store"></i> Loja Interna</div>
+          <div class="sobre-feature"><i class="fas fa-users"></i> Aulas Coletivas</div>
+          <div class="sobre-feature"><i class="fas fa-phone"></i> (31) 98244-9832</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ HORÁRIOS ═══ -->
+  <section id="horarios">
+    <div class="horarios-inner reveal">
+      <div class="horarios-text">
+        <span class="section-tag">Funcionamento</span>
+        <h2 class="section-title">Horários de <span>Atendimento</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          Abertos de segunda a sábado com ampla grade de horários para você encaixar o treino na sua rotina.
+        </p>
+      </div>
+      <div class="horarios-table">
+        <div class="horario-row">
+          <span class="horario-dia">Segunda a Sexta</span>
+          <span class="horario-tempo aberto">06:00 – 22:00</span>
+        </div>
+        <div class="horario-row">
+          <span class="horario-dia">Sábado</span>
+          <span class="horario-tempo aberto">08:00 – 14:00</span>
+        </div>
+        <div class="horario-row">
+          <span class="horario-dia">Domingo</span>
+          <span class="horario-tempo aberto">09:00 – 13:00</span>
+        </div>
+        <div class="horario-row horario-obs">
+          <i class="fas fa-info-circle"></i>
+          <span>Feriados podem ter horários diferentes. Consulte-nos pelo WhatsApp.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MODALIDADES ═══ -->
+  <section id="modalidades">
+    <div class="section-header reveal">
+      <span class="section-tag">O Que Oferecemos</span>
+      <h2 class="section-title">Nossas <span>Modalidades</span></h2>
+      <p class="section-desc">
+        Escolha a modalidade ideal para seus objetivos. Do iniciante ao avançado, temos a trilha certa para você.
+      </p>
+    </div>
+
+    <div class="modalidades-grid">
+
+      <div class="modal-card reveal">
+        <img src="public/assets/musculacao.jpg" alt="Musculação" />
+        <div class="modal-overlay">
+          <div class="modal-icon">💪</div>
+          <h3 class="modal-title">Musculação</h3>
+          <p class="modal-desc">Hipertrofia, emagrecimento e condicionamento. Equipamentos variados e instrutores prontos para orientar.</p>
+        </div>
+      </div>
+
+      <div class="modal-card reveal" style="--delay: 0.08s">
+        <img src="public/assets/boxe.jpg" alt="Boxe" />
+        <div class="modal-overlay">
+          <div class="modal-icon">🥊</div>
+          <h3 class="modal-title">Boxe</h3>
+          <p class="modal-desc">Técnica, velocidade e força. Aulas para todos os níveis em um ambiente motivador.</p>
+        </div>
+      </div>
+
+      <div class="modal-card reveal" style="--delay: 0.16s">
+        <img src="public/assets/muaythai.jpg" alt="Muay Thai" />
+        <div class="modal-overlay">
+          <div class="modal-icon">🦵</div>
+          <h3 class="modal-title">Muay Thai</h3>
+          <p class="modal-desc">A arte dos 8 membros. Condicionamento físico intenso, defesa pessoal e disciplina.</p>
+        </div>
+        <div class="modal-tag">Destaque</div>
+      </div>
+
+      <div class="modal-card reveal" style="--delay: 0.08s">
+        <img src="public/assets/taekwondo.jpg" alt="Taekwondo" />
+        <div class="modal-overlay">
+          <div class="modal-icon">🦶</div>
+          <h3 class="modal-title">Taekwondo</h3>
+          <p class="modal-desc">Arte marcial coreana com foco em chutes de alta performance. Disciplina e agilidade para todas as idades.</p>
+        </div>
+      </div>
+
+      <div class="modal-card reveal" style="--delay: 0.24s">
+        <img src="public/assets/pilates.jpg" alt="Pilates" />
+        <div class="modal-overlay">
+          <div class="modal-icon">🧘</div>
+          <h3 class="modal-title">Pilates</h3>
+          <p class="modal-desc">Equilíbrio, flexibilidade e postura. Ideal para reabilitação e qualidade de vida.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ AVALIAÇÕES ═══ -->
+  <section id="avaliacoes">
+    <div class="avaliacoes-header reveal">
+      <span class="section-tag">O Que Dizem Nossos Alunos</span>
+      <h2 class="section-title">Avaliações <span>Google</span></h2>
+      <div class="google-score">
+        <div class="google-score-num">4,5</div>
+        <div class="google-score-right">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="google-score-label">135 avaliações · Google Maps</div>
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/250px-Google_2015_logo.svg.png"
+             alt="Google" class="google-logo" />
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+
+      <div class="review-card reveal">
+        <div class="review-header">
+          <div class="reviewer-avatar">SA</div>
+          <div class="reviewer-info">
+            <div class="reviewer-name">Samara Amorim</div>
+            <div class="reviewer-meta">4 avaliações · há 2 meses</div>
+          </div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <p class="review-text">
+          "A melhor academia que já treinei. Os instrutores são atenciosos. Super recomendo!"
+        </p>
+        <div class="review-badge verified">
+          <i class="fab fa-google"></i> Avaliação verificada
+        </div>
+      </div>
+
+      <div class="review-card reveal" style="--delay: 0.1s">
+        <div class="review-header">
+          <div class="reviewer-avatar">AG</div>
+          <div class="reviewer-info">
+            <div class="reviewer-name">André Gomes</div>
+            <div class="reviewer-meta">11 avaliações · há 1 mês</div>
+          </div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <p class="review-text">
+          "A academia é ótima, bons instrutores. Poderia ser mais arejada. Ótimas aulas coletivas, espaço e atendimento."
+        </p>
+        <div class="review-badge verified">
+          <i class="fab fa-google"></i> Avaliação verificada
+        </div>
+      </div>
+
+      <div class="review-card reveal" style="--delay: 0.2s">
+        <div class="review-header">
+          <div class="reviewer-avatar">RF</div>
+          <div class="reviewer-info">
+            <div class="reviewer-name">Robson Fercosta</div>
+            <div class="reviewer-meta">Local Guide · 48 avaliações</div>
+          </div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <p class="review-text">
+          "Professores atenciosos com diversidade de aparelhos e bom custo x benefício. Frequentado por uma galera bacana que acaba compensando."
+        </p>
+        <div class="review-badge verified">
+          <i class="fab fa-google"></i> Avaliação verificada
+        </div>
+      </div>
+
+    </div>
+
+    <div class="avaliacoes-cta reveal">
+      <a href="https://maps.app.goo.gl/academia-bh-fight-graju" target="_blank" class="btn-outline">
+        <i class="fab fa-google"></i> Ver todas no Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ GALERIA ═══ -->
+  <section id="galeria">
+    <div class="section-header reveal">
+      <span class="section-tag">Nosso Espaço</span>
+      <h2 class="section-title">Galeria de <span>Fotos</span></h2>
+    </div>
+    <div class="galeria-grid">
+      <div class="galeria-item large reveal">
+        <img src="public/assets/galeria-1.jpg" alt="Academia BH Fight" loading="lazy" />
+        <div class="galeria-overlay"><i class="fas fa-expand-alt"></i></div>
+      </div>
+      <div class="galeria-item reveal">
+        <img src="public/assets/galeria-2.jpg" alt="Treino" loading="lazy" />
+        <div class="galeria-overlay"><i class="fas fa-expand-alt"></i></div>
+      </div>
+      <div class="galeria-item reveal" style="--delay: 0.1s">
+        <img src="public/assets/galeria-3.jpg" alt="Aula" loading="lazy" />
+        <div class="galeria-overlay"><i class="fas fa-expand-alt"></i></div>
+      </div>
+      <div class="galeria-item reveal" style="--delay: 0.15s">
+        <img src="public/assets/galeria-4.jpg" alt="Musculação" loading="lazy" />
+        <div class="galeria-overlay"><i class="fas fa-expand-alt"></i></div>
+      </div>
+      <div class="galeria-item reveal" style="--delay: 0.2s">
+        <img src="public/assets/galeria-5.jpg" alt="Luta" loading="lazy" />
+        <div class="galeria-overlay"><i class="fas fa-expand-alt"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ LOCALIZAÇÃO ═══ -->
+  <section id="localizacao">
+    <div class="localizacao-grid">
+      <div class="localizacao-info reveal-left">
+        <span class="section-tag">Onde Estamos</span>
+        <h2 class="section-title">Nossa <span>Localização</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Fácil acesso por transporte público ou carro. Venha sem agendamento para conhecer a academia.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Endereço</strong>
+              <span>R. Contria, 1439 - Grajaú, Belo Horizonte - MG, 30431-245</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Telefone</strong>
+              <a href="tel:+5531982449832">(31) 98244-9832</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/5531982449832" target="_blank">(31) 98244-9832</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-facebook"></i>
+            <div>
+              <strong>Facebook</strong>
+              <a href="https://facebook.com" target="_blank">Academia BH Fight</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Horários</strong>
+              <span>Seg–Sex: 06h–22h · Sáb: 08h–14h · Dom: 09h–13h</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://wa.me/5531982449832?text=Olá!%20Quero%20visitar%20a%20BH%20Fight%20Grajaú."
+           target="_blank" class="btn-primary">
+          <i class="fab fa-whatsapp"></i> Falar pelo WhatsApp
+        </a>
+      </div>
+
+      <div class="map-wrap reveal-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.2!2d-43.9852!3d-19.9512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDU3JzA0LjMiUyA0M8KwNTknMDYuNyJX!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa BH Fight Grajaú — R. Contria, 1439">
+        </iframe>
+        <div class="map-address-bar">
+          <i class="fas fa-map-marker-alt"></i>
+          R. Contria, 1439 · Grajaú, BH · CEP 30431-245
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA FINAL ═══ -->
+  <section id="contato">
+    <div class="contato-inner reveal">
+      <div class="contato-logo">
+        <img src="public/assets/logo.png" alt="BH Fight Logo" />
+      </div>
+      <span class="section-tag">Pronto Para Começar?</span>
+      <h2 class="section-title">Venha Treinar <span>Hoje Mesmo!</span></h2>
+      <p class="section-desc">
+        Não precisa agendar. Chegue, conheça o espaço e assista uma aula. Nossa equipe está pronta para te receber.
+      </p>
+      <div class="contato-buttons">
+        <a href="https://wa.me/5531982449832?text=Olá!%20Quero%20começar%20a%20treinar%20na%20BH%20Fight%20Grajaú!"
+           target="_blank" class="btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+        </a>
+        <a href="tel:+5531982449832" class="btn-outline">
+          <i class="fas fa-phone"></i> (31) 98244-9832
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-brand">
+      <img src="public/assets/logo.png" alt="BH Fight Logo" class="footer-logo" />
+      <div>
+        <div class="footer-brand-name">BH Fight Grajaú</div>
+        <div class="footer-brand-addr">R. Contria, 1439 · Grajaú · BH - MG</div>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 BH Fight Grajaú · Todos os direitos reservados</p>
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/5531982449832" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <!-- ═══ FLOATING WHATSAPP ═══ -->
+  <a href="https://wa.me/5531982449832?text=Olá!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20BH%20Fight%20Grajaú."
+     class="float-whatsapp" target="_blank" title="Falar no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
